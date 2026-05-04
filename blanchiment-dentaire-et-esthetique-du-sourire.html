@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thi Dentalcare - Blanchiment dentaire et esthétique du sourire</title>
+    <meta name="description"
+        content="Découvrez nos solutions d'esthétique dentaire : blanchiment professionnel, facettes en céramique et en composite pour un sourire éclatant et naturel.">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Quote section */
+        .service-quote {
+            background: linear-gradient(135deg, hsl(208, 100%, 30%), hsl(208, 100%, 20%));
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .service-quote .quote-icon {
+            font-size: 4rem;
+            color: hsla(0, 0%, 100%, 0.3);
+            line-height: 1;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .service-quote blockquote {
+            max-width: 680px;
+            margin: 0 auto;
+            font-family: 'Poppins', sans-serif;
+            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+            font-weight: 600;
+            font-style: italic;
+            color: hsl(0, 0%, 100%);
+            line-height: 1.6;
+        }
+
+        .service-quote .quote-author {
+            display: block;
+            margin-top: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            font-style: normal;
+            color: hsla(0, 0%, 100%, 0.7);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body id="top">
+
+    <!-- #HEADER -->
+
+    <header class="header">
+
+        <div class="header-top">
+            <div class="container">
+
+                <ul class="contact-list">
+
+                    <li class="contact-item">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <a href="mailto:info@example.com" class="contact-link">info@example.com</a>
+                    </li>
+
+                    <li class="contact-item">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <a href="tel:+212665080674" class="contact-link">+212 665-080674</a>
+                    </li>
+
+                </ul>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="header-bottom" data-header>
+            <div class="container">
+
+                <a href="index.html" class="logo"><img src="assets/images/thi-dentalcare-logo.png"
+                        alt="Thi Dentalcare Logo"></a>
+
+                <nav class="navbar container" data-navbar>
+                    <ul class="navbar-list">
+
+                        <li>
+                            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                        </li>
+
+                        <li class="navbar-item has-dropdown">
+                            <a href="index.html#blog" class="navbar-link">Services</a>
+
+                            <ul class="dropdown-list">
+                                <li>
+                                    <a href="parodontie.html" class="dropdown-link">Parodontie</a>
+                                </li>
+                                <li>
+                                    <a href="odontologie-conservatrice-et-endodontie.html"
+                                        class="dropdown-link">Odontologie conservatrice et
+                                        endodontie</a>
+                                </li>
+                                <li>
+                                    <a href="prothese-fixee-et-amovible.html" class="dropdown-link">Prothèse fixée et
+                                        amovible</a>
+                                </li>
+                                <li>
+                                    <a href="pedodontie.html" class="dropdown-link">Pédodontie (soins dentaires pour
+                                        enfants)</a>
+                                </li>
+                                <li>
+                                    <a href="radiographie.html" class="dropdown-link">Radiographie</a>
+                                </li>
+                                <li>
+                                    <a href="blanchiment-dentaire-et-esthetique-du-sourire.html"
+                                        class="dropdown-link">Blanchiment dentaire et
+                                        esthétique du sourire</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="index.html#about" class="navbar-link" data-nav-link>About Us</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-link" data-nav-link>Contact</a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <a href="tel:+212660548791" class="btn">Prendre rendez-vous</a>
+
+                <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+                    <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+                    <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+                </button>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <article>
+
+            <!-- Hero / Intro -->
+            <section class="section service-hero">
+                <div class="container">
+                    <h1 class="h1 section-title">Blanchiment dentaire & esthétique du sourire</h1>
+                    <p class="section-text">
+                        Des solutions esthétiques sécurisées et sur mesure pour révéler l'éclat naturel de votre
+                        sourire et renforcer votre confiance en vous.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Blanchiment dentaire Section -->
+            <section class="section service-section">
+                <div class="container">
+                    <div class="service-split">
+                        <figure class="service-split-banner">
+                            <img src="./assets/images/about-banner.png" width="470" height="538" loading="lazy"
+                                alt="Blanchiment dentaire professionnel" class="w-100">
+                        </figure>
+
+                        <div class="service-split-content">
+                            <h2 class="h2 section-title">Le blanchiment dentaire</h2>
+                            <p class="section-text">
+                                Un acte d'esthétique dentaire visant à éclaircir la teinte des dents et à redonner
+                                éclat et luminosité au sourire. Il permet de réduire les colorations dues au temps,
+                                à l'alimentation, au tabac ou à certains facteurs naturels. Après une évaluation
+                                préalable, un protocole personnalisé est mis en place en fonction de la sensibilité
+                                et des attentes de chaque patient.
+                            </p>
+
+                            <ul class="service-feature-list">
+                                <li class="service-feature-item">
+                                    <div class="service-feature-icon">
+                                        <ion-icon name="color-wand-outline"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <h3 class="h3 service-feature-item-title">Techniques sécurisées & encadrées</h3>
+                                        <p class="service-feature-item-text">Protocole professionnel garantissant
+                                            des résultats efficaces tout en préservant l'intégrité de l'émail
+                                            dentaire, réalisé dans des conditions contrôlées.</p>
+                                    </div>
+                                </li>
+                                <li class="service-feature-item">
+                                    <div class="service-feature-icon">
+                                        <ion-icon name="person-outline"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <h3 class="h3 service-feature-item-title">Protocole entièrement personnalisé
+                                        </h3>
+                                        <p class="service-feature-item-text">Chaque traitement est adapté à la
+                                            sensibilité et aux attentes spécifiques du patient pour des résultats
+                                            progressifs et naturels.</p>
+                                    </div>
+                                </li>
+                                <li class="service-feature-item">
+                                    <div class="service-feature-icon">
+                                        <ion-icon name="sunny-outline"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <h3 class="h3 service-feature-item-title">Sourire éclatant & harmonieux</h3>
+                                        <p class="service-feature-item-text">Un résultat naturel qui respecte
+                                            l'harmonie du visage, pour un sourire plus lumineux sans effet
+                                            artificiel.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Facettes en céramique Section -->
+            <section class="section service-section bg-cultured">
+                <div class="container">
+                    <div class="service-split reverse">
+                        <figure class="service-split-banner">
+                            <img src="./assets/images/service-banner.png" width="470" height="538" loading="lazy"
+                                alt="Facettes dentaires en céramique" class="w-100"
+                                style="border-radius: 20px; box-shadow: var(--shadow-2);">
+                        </figure>
+
+                        <div class="service-split-content">
+                            <h2 class="h2 section-title">Facettes en céramique (porcelaine)</h2>
+                            <p class="section-text">
+                                Les facettes en céramique sont considérées comme la solution la plus esthétique et
+                                la plus durable. Fabriquées en laboratoire sur mesure, elles sont collées sur la
+                                dent après une préparation minimale. Elles offrent un rendu très naturel grâce à
+                                leur translucidité proche de l'émail dentaire. C'est la solution privilégiée pour
+                                les transformations esthétiques complètes du sourire.
+                            </p>
+
+                            <ul class="service-feature-list">
+                                <li class="service-feature-item border-royal">
+                                    <div class="service-feature-icon text-royal">
+                                        <ion-icon name="diamond-outline"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <h3 class="h3 service-feature-item-title">Esthétique & naturalité maximale</h3>
+                                        <p class="service-feature-item-text">Translucidité proche de l'émail naturel
+                                            pour un rendu indifférenciable des dents d'origine et une intégration
+                                            parfaite dans le sourire.</p>
+                                    </div>
+                                </li>
+                                <li class="service-feature-item border-royal">
+                                    <div class="service-feature-icon text-royal">
+                                        <ion-icon name="shield-checkmark-outline"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <h3 class="h3 service-feature-item-title">Résistance & longévité</h3>
+                                        <p class="service-feature-item-text">Résistantes aux taches et à l'usure,
+                                            elles garantissent une excellente stabilité de la couleur dans le temps
+                                            et une durabilité supérieure.</p>
+                                    </div>
+                                </li>
+                                <li class="service-feature-item border-royal">
+                                    <div class="service-feature-icon text-royal">
+                                        <ion-icon name="construct-outline"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <h3 class="h3 service-feature-item-title">Fabrication sur mesure en laboratoire
+                                        </h3>
+                                        <p class="service-feature-item-text">Chaque facette est conçue et façonnée
+                                            individuellement par un prothésiste pour s'adapter parfaitement à
+                                            l'anatomie et à la teinte désirée.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Facettes en composite Section -->
+            <section class="section service-section">
+                <div class="container">
+                    <div class="service-split">
+                        <figure class="service-split-banner">
+                            <img src="./assets/images/about-banner.png" width="470" height="538" loading="lazy"
+                                alt="Facettes dentaires en composite" class="w-100">
+                        </figure>
+
+                        <div class="service-split-content">
+                            <h2 class="h2 section-title">Facettes en composite</h2>
+                            <p class="section-text">
+                                Les facettes en composite sont réalisées directement au fauteuil par le praticien,
+                                à partir d'un matériau résineux esthétique modelé et sculpté sur la dent. Elles
+                                représentent une solution plus économique et plus rapide que la céramique,
+                                permettant de corriger des imperfections légères à modérées en forme, teinte ou
+                                petits espaces.
+                            </p>
+
+                            <ul class="service-feature-list">
+                                <li class="service-feature-item">
+                                    <div class="service-feature-icon">
+                                        <ion-icon name="flash-outline"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <h3 class="h3 service-feature-item-title">Réalisation directe au fauteuil</h3>
+                                        <p class="service-feature-item-text">Traitement réalisé en une seule séance
+                                            sans étape de laboratoire, pour un résultat immédiat et une correction
+                                            rapide des imperfections.</p>
+                                    </div>
+                                </li>
+                                <li class="service-feature-item">
+                                    <div class="service-feature-icon">
+                                        <ion-icon name="wallet-outline"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <h3 class="h3 service-feature-item-title">Solution économique & accessible</h3>
+                                        <p class="service-feature-item-text">Une alternative abordable à la
+                                            céramique pour améliorer l'esthétique du sourire sans contrainte
+                                            budgétaire importante.</p>
+                                    </div>
+                                </li>
+                                <li class="service-feature-item">
+                                    <div class="service-feature-icon">
+                                        <ion-icon name="brush-outline"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <h3 class="h3 service-feature-item-title">Correction des imperfections légères
+                                        </h3>
+                                        <p class="service-feature-item-text">Idéales pour corriger la forme, la
+                                            teinte ou de petits espaces interdentaires, avec un résultat esthétique
+                                            satisfaisant et naturel.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hollywood Smile Quote -->
+            <section class="service-quote" aria-label="citation hollywood smile">
+                <div class="container">
+                    <span class="quote-icon" aria-hidden="true">"</span>
+                    <blockquote>
+                        Le Hollywood Smile n'est pas seulement un sourire parfait,
+                        c'est une nouvelle confiance en soi.
+                        <span class="quote-author">— Thi Dentalcare Cabinet Dentaire</span>
+                    </blockquote>
+                </div>
+            </section>
+
+            <!-- #CTA -->
+
+            <section class="section cta" aria-label="cta">
+                <div class="container">
+
+                    <figure class="cta-banner">
+                        <img src="./assets/images/cta-banner.png" width="1056" height="1076" loading="lazy"
+                            alt="cta banner" class="w-100">
+                    </figure>
+
+                    <div class="cta-content">
+
+                        <p class="section-subtitle">Prendre rendez-vous</p>
+
+                        <h2 class="h2 section-title">Révélez l'éclat de votre sourire dès aujourd'hui</h2>
+
+                        <a href="tel:+212660548791" class="btn">Prendre rendez-vous</a>
+
+                    </div>
+
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!-- #FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-top section">
+            <div class="container">
+
+                <div class="footer-brand">
+
+                    <a href="index.html" class="logo"><img src="assets/images/thi-dentalcare-logo.png"
+                            alt="Thi Dentalcare Logo"></a>
+
+                    <p class="footer-text">
+                        Mauris non nisi semper, lacinia neque in, dapibus leo. Curabitur sagittis libero tincidunt
+                        tempor finibus.
+                        Mauris at
+                        dignissim ligula, nec tristique orci.Quisque vitae metus.
+                    </p>
+
+                    <div class="schedule">
+                        <div class="schedule-icon">
+                            <ion-icon name="time-outline"></ion-icon>
+                        </div>
+
+                        <span class="span">
+                            Monday - Saturday:<br>
+                            9:00am - 10:00Pm
+                        </span>
+                    </div>
+
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Other Links</p>
+                    </li>
+
+                    <li>
+                        <a href="index.html" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Home</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#about" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">About Us</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#blog" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Services</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Our Team</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Latest Blog</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Our Services</p>
+                    </li>
+
+                    <li>
+                        <a href="parodontie.html" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Parodontie</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="odontologie-conservatrice-et-endodontie.html" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Odontologie & Endodontie</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="prothese-fixee-et-amovible.html" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Prothèse dentaire</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="pedodontie.html" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Pédodontie</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="radiographie.html" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Radiographie</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="blanchiment-dentaire-et-esthetique-du-sourire.html" class="footer-link">
+                            <ion-icon name="add-outline"></ion-icon>
+                            <span class="span">Blanchiment dentaire</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Contact Us</p>
+                    </li>
+
+                    <li class="footer-item">
+                        <div class="item-icon">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <address class="item-text">
+                            1247/Plot No. 39, 15th Phase,<br>
+                            LHB Colony, Kanpur
+                        </address>
+                    </li>
+
+                    <li class="footer-item">
+                        <div class="item-icon">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+
+                        <a href="tel:+212660548791" class="footer-link">+212 660-548791</a>
+                    </li>
+
+                    <li class="footer-item">
+                        <div class="item-icon">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <a href="mailto:help@example.com" class="footer-link">help@example.com</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    &copy; 2022 All Rights Reserved by codewithsadee.
+                </p>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- #BACK TO TOP -->
+
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- custom js link -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

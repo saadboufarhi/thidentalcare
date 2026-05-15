@@ -2303,7 +2303,7 @@ body {
   font-weight: var(--fw-700);
 }
 
-.service-split-content > .section-text {
+.service-split-content>.section-text {
   margin-bottom: 25px;
   font-size: clamp(1.4rem, 1.5vw, 1.6rem);
   line-height: 1.6;
@@ -2411,6 +2411,7 @@ body {
     opacity: 0;
     transform: translateY(-5px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);

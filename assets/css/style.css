@@ -2120,7 +2120,7 @@ body {
   position: relative;
   background-size: cover;
   background-position: center;
-  padding-block: 180px 100px;
+  padding-block: 250px 100px;
   color: var(--white);
   text-align: center;
   overflow: hidden;
@@ -2462,6 +2462,10 @@ body {
 
   .hero {
     padding-block-start: 160px !important;
+  }
+
+  .service-hero {
+    padding-block: 200px 60px !important;
   }
 
   .blog-card .card-content {

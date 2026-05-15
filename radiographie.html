@@ -36,12 +36,12 @@
 
                     <li class="contact-item">
                         <ion-icon name="mail-outline"></ion-icon>
-                        <a href="mailto:info@example.com" class="contact-link">mailto:info@example.com</a>
+                        <a href="mailto:tadlaouiyy@gmail.com" class="contact-link">tadlaouiyy@gmail.com</a>
                     </li>
 
                     <li class="contact-item">
                         <ion-icon name="call-outline"></ion-icon>
-                        <a href="tel:+212665080674" class="contact-link">+212 665-080674</a>
+                        <a href="tel:+212531202818" class="contact-link">+212 531-202818</a>
                     </li>
 
                 </ul>
@@ -136,7 +136,7 @@
                     </ul>
                 </nav>
 
-                <a href="tel:+212660548791" class="btn">Prendre rendez-vous</a>
+                <a href="tel:+212531202818" class="btn">Prendre rendez-vous</a>
 
                 <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
                     <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
@@ -152,9 +152,9 @@
         <article>
 
             <!-- Hero / Intro -->
-            <section class="section service-hero">
+            <section class="section service-hero" style="background-image: url('./assets/images/radio-1.jpg');">
                 <div class="container">
-                    <h1 class="h1 section-title">Radiographie dentaire</h1>
+                    <h1 class="h1 section-title">Radiographie</h1>
                     <p class="section-text">
                         Des examens d'imagerie modernes, rapides et indolores pour un diagnostic précis,
                         une planification optimale des soins et une exposition minimale aux rayons X.
@@ -182,37 +182,52 @@
 
                             <ul class="service-feature-list">
                                 <li class="service-feature-item">
-                                    <div class="service-feature-icon">
-                                        <ion-icon name="scan-outline"></ion-icon>
-                                    </div>
-                                    <div>
-                                        <h3 class="h3 service-feature-item-title">Vue d'ensemble complète</h3>
-                                        <p class="service-feature-item-text">Visualisation simultanée de toutes les
-                                            dents, des mâchoires et des articulations temporo-mandibulaires en un
-                                            seul cliché.</p>
-                                    </div>
+                                    <details class="feature-toggle">
+                                        <summary>
+                                            <div class="service-feature-icon">
+                                                <ion-icon name="scan-outline"></ion-icon>
+                                            </div>
+                                            <h3 class="h3 service-feature-item-title">Vue d'ensemble</h3>
+                                            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+                                        </summary>
+                                        <div class="feature-content">
+                                            <p class="service-feature-item-text">Visualisation simultanée de toutes les
+                                                dents, des mâchoires et des articulations temporo-mandibulaires en un
+                                                seul cliché.</p>
+                                        </div>
+                                    </details>
                                 </li>
                                 <li class="service-feature-item">
-                                    <div class="service-feature-icon">
-                                        <ion-icon name="search-outline"></ion-icon>
-                                    </div>
-                                    <div>
-                                        <h3 class="h3 service-feature-item-title">Détection des pathologies cachées</h3>
-                                        <p class="service-feature-item-text">Repère les caries invisibles à l'œil nu,
-                                            les infections, les kystes et les dents incluses inaccessibles à
-                                            l'examen clinique classique.</p>
-                                    </div>
+                                    <details class="feature-toggle">
+                                        <summary>
+                                            <div class="service-feature-icon">
+                                                <ion-icon name="search-outline"></ion-icon>
+                                            </div>
+                                            <h3 class="h3 service-feature-item-title">Détection pathologies</h3>
+                                            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+                                        </summary>
+                                        <div class="feature-content">
+                                            <p class="service-feature-item-text">Repère les caries invisibles à l'œil nu,
+                                                les infections, les kystes et les dents incluses inaccessibles à
+                                                l'examen clinique classique.</p>
+                                        </div>
+                                    </details>
                                 </li>
                                 <li class="service-feature-item">
-                                    <div class="service-feature-icon">
-                                        <ion-icon name="shield-checkmark-outline"></ion-icon>
-                                    </div>
-                                    <div>
-                                        <h3 class="h3 service-feature-item-title">Équipements modernes & sécurisés</h3>
-                                        <p class="service-feature-item-text">Réalisée avec des appareils de dernière
-                                            génération garantissant une image haute qualité avec une exposition
-                                            minimale aux rayons X.</p>
-                                    </div>
+                                    <details class="feature-toggle">
+                                        <summary>
+                                            <div class="service-feature-icon">
+                                                <ion-icon name="shield-checkmark-outline"></ion-icon>
+                                            </div>
+                                            <h3 class="h3 service-feature-item-title">Sécurité & précision</h3>
+                                            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+                                        </summary>
+                                        <div class="feature-content">
+                                            <p class="service-feature-item-text">Réalisée avec des appareils de dernière
+                                                génération garantissant une image haute qualité avec une exposition
+                                                minimale aux rayons X.</p>
+                                        </div>
+                                    </details>
                                 </li>
                             </ul>
                         </div>
@@ -226,8 +241,7 @@
                     <div class="service-split reverse">
                         <figure class="service-split-banner">
                             <img src="./assets/images/radio-3.jpg" width="470" height="538" loading="lazy"
-                                alt="Radiographie rétro-alvéolaire" class="w-100"
-                                style="border-radius: 20px; box-shadow: var(--shadow-2);">
+                                alt="Radiographie rétro-alvéolaire" class="w-100">
                         </figure>
 
                         <div class="service-split-content">
@@ -241,38 +255,52 @@
 
                             <ul class="service-feature-list">
                                 <li class="service-feature-item border-royal">
-                                    <div class="service-feature-icon text-royal">
-                                        <ion-icon name="git-branch-outline"></ion-icon>
-                                    </div>
-                                    <div>
-                                        <h3 class="h3 service-feature-item-title">Analyse précise des racines</h3>
-                                        <p class="service-feature-item-text">Visualisation détaillée de chaque dent
-                                            de la couronne jusqu'à la pointe des racines et de l'os alvéolaire
-                                            environnant.</p>
-                                    </div>
+                                    <details class="feature-toggle">
+                                        <summary>
+                                            <div class="service-feature-icon text-light-gray">
+                                                <ion-icon name="git-branch-outline"></ion-icon>
+                                            </div>
+                                            <h3 class="h3 service-feature-item-title">Analyse des racines</h3>
+                                            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+                                        </summary>
+                                        <div class="feature-content">
+                                            <p class="service-feature-item-text">Visualisation détaillée de chaque dent
+                                                de la couronne jusqu'à la pointe des racines et de l'os alvéolaire
+                                                environnant.</p>
+                                        </div>
+                                    </details>
                                 </li>
                                 <li class="service-feature-item border-royal">
-                                    <div class="service-feature-icon text-royal">
-                                        <ion-icon name="medkit-outline"></ion-icon>
-                                    </div>
-                                    <div>
-                                        <h3 class="h3 service-feature-item-title">Diagnostic des pathologies localisées
-                                        </h3>
-                                        <p class="service-feature-item-text">Détection des caries profondes,
-                                            infections radiculaires, lésions osseuses et évaluation de la qualité
-                                            des traitements endodontiques (traitements de canal).</p>
-                                    </div>
+                                    <details class="feature-toggle">
+                                        <summary>
+                                            <div class="service-feature-icon text-light-gray">
+                                                <ion-icon name="medkit-outline"></ion-icon>
+                                            </div>
+                                            <h3 class="h3 service-feature-item-title">Diagnostic localisé</h3>
+                                            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+                                        </summary>
+                                        <div class="feature-content">
+                                            <p class="service-feature-item-text">Détection des caries profondes,
+                                                infections radiculaires, lésions osseuses et évaluation de la qualité
+                                                des traitements endodontiques (traitements de canal).</p>
+                                        </div>
+                                    </details>
                                 </li>
                                 <li class="service-feature-item border-royal">
-                                    <div class="service-feature-icon text-royal">
-                                        <ion-icon name="flash-outline"></ion-icon>
-                                    </div>
-                                    <div>
-                                        <h3 class="h3 service-feature-item-title">Rapide & faible irradiation</h3>
-                                        <p class="service-feature-item-text">Examen réalisé en quelques secondes
-                                            avec un niveau d'exposition aux rayons X très faible, dans le respect
-                                            des normes de sécurité et du confort du patient.</p>
-                                    </div>
+                                    <details class="feature-toggle">
+                                        <summary>
+                                            <div class="service-feature-icon text-light-gray">
+                                                <ion-icon name="flash-outline"></ion-icon>
+                                            </div>
+                                            <h3 class="h3 service-feature-item-title">Rapide & sécurisé</h3>
+                                            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+                                        </summary>
+                                        <div class="feature-content">
+                                            <p class="service-feature-item-text">Examen réalisé en quelques secondes
+                                                avec un niveau d'exposition aux rayons X très faible, dans le respect
+                                                des normes de sécurité et du confort du patient.</p>
+                                        </div>
+                                    </details>
                                 </li>
                             </ul>
                         </div>
@@ -423,7 +451,7 @@
                             <ion-icon name="call-outline"></ion-icon>
                         </div>
 
-                        <a href="tel:+212665080674" class="footer-link">+212665080674</a>
+                        <a href="tel:+212531202818" class="footer-link">+212531202818</a>
                     </li>
 
                     <li class="footer-item">
@@ -431,7 +459,7 @@
                             <ion-icon name="mail-outline"></ion-icon>
                         </div>
 
-                        <a href="mailto:help@example.com" class="footer-link">help@example.com</a>
+                        <a href="mailto:tadlaouiyy@gmail.com" class="footer-link">tadlaouiyy@gmail.com</a>
                     </li>
 
                 </ul>

@@ -36,12 +36,12 @@
 
                     <li class="contact-item">
                         <ion-icon name="mail-outline"></ion-icon>
-                        <a href="mailto:info@example.com" class="contact-link">mailto:info@example.com</a>
+                        <a href="mailto:tadlaouiyy@gmail.com" class="contact-link">tadlaouiyy@gmail.com</a>
                     </li>
 
                     <li class="contact-item">
                         <ion-icon name="call-outline"></ion-icon>
-                        <a href="tel:+212665080674" class="contact-link">+212 665-080674</a>
+                        <a href="tel:+212531202818" class="contact-link">+212 531-202818</a>
                     </li>
 
                 </ul>
@@ -135,7 +135,7 @@
                     </ul>
                 </nav>
 
-                <a href="tel:+212660548791" class="btn">Prendre rendez-vous</a>
+                <a href="tel:+212531202818" class="btn">Prendre rendez-vous</a>
 
                 <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
                     <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
@@ -151,9 +151,9 @@
         <article>
 
             <!-- Hero / Intro -->
-            <section class="section service-hero">
+            <section class="section service-hero" style="background-image: url('./assets/images/pedo-1.jpg');">
                 <div class="container">
-                    <h1 class="h1 section-title">Pédodontie : soins dentaires pour enfants</h1>
+                    <h1 class="h1 section-title">Pédodontie</h1>
                     <p class="section-text">
                         Une approche douce, pédagogique et bienveillante pour accompagner la santé bucco-dentaire
                         de vos enfants, de la petite enfance jusqu'à l'adolescence.
@@ -182,37 +182,52 @@
 
                             <ul class="service-feature-list">
                                 <li class="service-feature-item">
-                                    <div class="service-feature-icon">
-                                        <ion-icon name="shield-checkmark-outline"></ion-icon>
-                                    </div>
-                                    <div>
-                                        <h3 class="h3 service-feature-item-title">Contrôles réguliers</h3>
-                                        <p class="service-feature-item-text">Bilans dentaires périodiques pour détecter
-                                            précocement toute anomalie et assurer un développement sain de la dentition.
-                                        </p>
-                                    </div>
+                                    <details class="feature-toggle">
+                                        <summary>
+                                            <div class="service-feature-icon">
+                                                <ion-icon name="shield-checkmark-outline"></ion-icon>
+                                            </div>
+                                            <h3 class="h3 service-feature-item-title">Contrôles réguliers</h3>
+                                            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+                                        </summary>
+                                        <div class="feature-content">
+                                            <p class="service-feature-item-text">Bilans dentaires périodiques pour détecter
+                                                précocement toute anomalie et assurer un développement sain de la dentition.
+                                            </p>
+                                        </div>
+                                    </details>
                                 </li>
                                 <li class="service-feature-item">
-                                    <div class="service-feature-icon">
-                                        <ion-icon name="water-outline"></ion-icon>
-                                    </div>
-                                    <div>
-                                        <h3 class="h3 service-feature-item-title">Applications de fluor</h3>
-                                        <p class="service-feature-item-text">Traitements fluorés professionnels pour
-                                            renforcer l'émail et protéger les dents de lait et les dents définitives
-                                            contre les caries.</p>
-                                    </div>
+                                    <details class="feature-toggle">
+                                        <summary>
+                                            <div class="service-feature-icon">
+                                                <ion-icon name="water-outline"></ion-icon>
+                                            </div>
+                                            <h3 class="h3 service-feature-item-title">Applications de fluor</h3>
+                                            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+                                        </summary>
+                                        <div class="feature-content">
+                                            <p class="service-feature-item-text">Traitements fluorés professionnels pour
+                                                renforcer l'émail et protéger les dents de lait et les dents définitives
+                                                contre les caries.</p>
+                                        </div>
+                                    </details>
                                 </li>
                                 <li class="service-feature-item">
-                                    <div class="service-feature-icon">
-                                        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
-                                    </div>
-                                    <div>
-                                        <h3 class="h3 service-feature-item-title">Conseils d'hygiène bucco-dentaire</h3>
-                                        <p class="service-feature-item-text">Éducation personnalisée des enfants et des
-                                            parents aux bonnes pratiques de brossage et d'alimentation adaptées à
-                                            chaque âge.</p>
-                                    </div>
+                                    <details class="feature-toggle">
+                                        <summary>
+                                            <div class="service-feature-icon">
+                                                <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                                            </div>
+                                            <h3 class="h3 service-feature-item-title">Conseils d'hygiène</h3>
+                                            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+                                        </summary>
+                                        <div class="feature-content">
+                                            <p class="service-feature-item-text">Éducation personnalisée des enfants et des
+                                                parents aux bonnes pratiques de brossage et d'alimentation adaptées à
+                                                chaque âge.</p>
+                                        </div>
+                                    </details>
                                 </li>
                             </ul>
                         </div>
@@ -226,8 +241,7 @@
                     <div class="service-split reverse">
                         <figure class="service-split-banner">
                             <img src="./assets/images/pedo-3.jpg" width="470" height="538" loading="lazy"
-                                alt="Traitement caries et suivi dentaire enfant" class="w-100"
-                                style="border-radius: 20px; box-shadow: var(--shadow-2);">
+                                alt="Traitement caries et suivi dentaire enfant" class="w-100">
                         </figure>
 
                         <div class="service-split-content">
@@ -241,37 +255,52 @@
 
                             <ul class="service-feature-list">
                                 <li class="service-feature-item border-royal">
-                                    <div class="service-feature-icon text-royal">
-                                        <ion-icon name="medkit-outline"></ion-icon>
-                                    </div>
-                                    <div>
-                                        <h3 class="h3 service-feature-item-title">Traitement des caries</h3>
-                                        <p class="service-feature-item-text">Soins des caries sur dents de lait et
-                                            permanentes avec des techniques adaptées aux enfants, dans un contexte
-                                            rassurant et sans douleur.</p>
-                                    </div>
+                                    <details class="feature-toggle">
+                                        <summary>
+                                            <div class="service-feature-icon text-light-gray">
+                                                <ion-icon name="medkit-outline"></ion-icon>
+                                            </div>
+                                            <h3 class="h3 service-feature-item-title">Traitement des caries</h3>
+                                            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+                                        </summary>
+                                        <div class="feature-content">
+                                            <p class="service-feature-item-text">Soins des caries sur dents de lait et
+                                                permanentes avec des techniques adaptées aux enfants, dans un contexte
+                                                rassurant et sans douleur.</p>
+                                        </div>
+                                    </details>
                                 </li>
                                 <li class="service-feature-item border-royal">
-                                    <div class="service-feature-icon text-royal">
-                                        <ion-icon name="analytics-outline"></ion-icon>
-                                    </div>
-                                    <div>
-                                        <h3 class="h3 service-feature-item-title">Suivi de l'éruption dentaire</h3>
-                                        <p class="service-feature-item-text">Surveillance du calendrier d'apparition
-                                            des dents et détection précoce des anomalies d'éruption ou de position
-                                            pour intervenir au bon moment.</p>
-                                    </div>
+                                    <details class="feature-toggle">
+                                        <summary>
+                                            <div class="service-feature-icon text-light-gray">
+                                                <ion-icon name="analytics-outline"></ion-icon>
+                                            </div>
+                                            <h3 class="h3 service-feature-item-title">Suivi de la croissance</h3>
+                                            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+                                        </summary>
+                                        <div class="feature-content">
+                                            <p class="service-feature-item-text">Surveillance du calendrier d'apparition
+                                                des dents et détection précoce des anomalies d'éruption ou de position
+                                                pour intervenir au bon moment.</p>
+                                        </div>
+                                    </details>
                                 </li>
                                 <li class="service-feature-item border-royal">
-                                    <div class="service-feature-icon text-royal">
-                                        <ion-icon name="happy-outline"></ion-icon>
-                                    </div>
-                                    <div>
-                                        <h3 class="h3 service-feature-item-title">Accompagnement bienveillant</h3>
-                                        <p class="service-feature-item-text">Une équipe dédiée qui adapte chaque soin
-                                            au tempérament de l'enfant pour transformer chaque visite en une
-                                            expérience positive et sereine.</p>
-                                    </div>
+                                    <details class="feature-toggle">
+                                        <summary>
+                                            <div class="service-feature-icon text-light-gray">
+                                                <ion-icon name="happy-outline"></ion-icon>
+                                            </div>
+                                            <h3 class="h3 service-feature-item-title">Accompagnement doux</h3>
+                                            <ion-icon name="chevron-down-outline" class="toggle-icon"></ion-icon>
+                                        </summary>
+                                        <div class="feature-content">
+                                            <p class="service-feature-item-text">Une équipe dédiée qui adapte chaque soin
+                                                au tempérament de l'enfant pour transformer chaque visite en une
+                                                expérience positive et sereine.</p>
+                                        </div>
+                                    </details>
                                 </li>
                             </ul>
                         </div>
@@ -422,7 +451,7 @@
                             <ion-icon name="call-outline"></ion-icon>
                         </div>
 
-                        <a href="tel:+212665080674" class="footer-link">+212665080674</a>
+                        <a href="tel:+212531202818" class="footer-link">+212531202818</a>
                     </li>
 
                     <li class="footer-item">
@@ -430,7 +459,7 @@
                             <ion-icon name="mail-outline"></ion-icon>
                         </div>
 
-                        <a href="mailto:help@example.com" class="footer-link">help@example.com</a>
+                        <a href="mailto:tadlaouiyy@gmail.com" class="footer-link">tadlaouiyy@gmail.com</a>
                     </li>
 
                 </ul>

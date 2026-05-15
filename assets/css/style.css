@@ -76,7 +76,7 @@
    * spacing
    */
 
-  --section-padding: 80px;
+  --section-padding: 120px;
 
   /**
    * shadow
@@ -206,7 +206,8 @@ body {
 .h2,
 .h3 {
   font-family: var(--ff-poppins);
-  line-height: 1.2;
+  line-height: 1.4;
+  margin-block-end: 20px;
 }
 
 .h1 {
@@ -312,7 +313,7 @@ body {
 
 .header-bottom:not(.active) .navbar-link,
 .header-bottom:not(.active) .nav-toggle-btn {
-  color: var(--white);
+  color: var(--primary-dark);
 }
 
 .header-bottom:not(.active) .navbar-link:is(:hover, :focus) {
@@ -516,7 +517,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-block: 120px 60px;
+  padding-block: 160px 60px;
 }
 
 .hero-content {
@@ -1237,7 +1238,7 @@ body {
 
   .hero {
     overflow: hidden;
-    padding-block-start: 200px;
+    padding-block-start: 280px;
   }
 
   .hero .container {

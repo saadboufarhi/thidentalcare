@@ -62,13 +62,16 @@ dropdownItems.forEach(item => {
 
 
 /**
- * header active
+ * header active & scroll-related logic
  */
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
 
-window.addEventListener("scroll", function () {
+let lastScrollY = 0;
+let ticking = false;
+
+const updateScrollEffects = () => {
   if (window.scrollY >= 100) {
     header.classList.add("active");
     backTopBtn.classList.add("active");
@@ -76,10 +79,44 @@ window.addEventListener("scroll", function () {
     header.classList.remove("active");
     backTopBtn.classList.remove("active");
   }
+  ticking = false;
+};
+
+window.addEventListener("scroll", function () {
+  if (!ticking) {
+    window.requestAnimationFrame(updateScrollEffects);
+    ticking = true;
+  }
 });
  
  
  
+ 
+/**
+ * video autoplay on intersection
+ */
+
+const videos = document.querySelectorAll("[data-video]");
+
+const videoObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.play().catch(error => {
+        // Autoplay might be blocked by browser policy until user interaction
+        console.log("Video autoplay blocked or failed:", error);
+      });
+    } else {
+      entry.target.pause();
+    }
+  });
+}, { threshold: 0.1 });
+
+videos.forEach(video => {
+  videoObserver.observe(video);
+});
+
+
+
 
 /**
  * before & after slider
@@ -103,7 +140,7 @@ baSliders.forEach(slider => {
 
   const onMove = (event) => {
     const rect = container.getBoundingClientRect();
-    let x = (event.pageX || event.touches[0].pageX) - rect.left - window.scrollX;
+    let x = (event.pageX || (event.touches && event.touches[0].pageX)) - rect.left - window.scrollX;
 
     // Boundary checks
     if (x < 0) x = 0;
@@ -131,6 +168,6 @@ baSliders.forEach(slider => {
 
   // Dragging the handle or clicking the container
   handle.addEventListener("mousedown", startDragging);
-  handle.addEventListener("touchstart", startDragging);
+  handle.addEventListener("touchstart", startDragging, { passive: true });
   container.addEventListener("click", onMove);
 });

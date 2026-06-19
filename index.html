@@ -1,35 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thi Dentalcare | Votre cabinet dentaire le plus proche</title>
+  <meta name="description" content="Cabinet dentaire Thi Dentalcare à Tanger. Dr Tadlaoui Hbibi Idriss, chirurgien-dentiste spécialisé en parodontologie, esthétique du sourire, prothèses et soins pour enfants. Prenez rendez-vous en ligne.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://thi-dentalcare.com/">
 
-  <!-- 
-    - favicon
-  -->
+  <!-- Open Graph -->
+  <meta property="og:title" content="Thi Dentalcare | Votre cabinet dentaire le plus proche">
+  <meta property="og:description" content="Cabinet dentaire Thi Dentalcare à Tanger. Dr Tadlaoui Hbibi Idriss, chirurgien-dentiste spécialisé en parodontologie, esthétique du sourire, prothèses et soins pour enfants.">
+  <meta property="og:url" content="https://thi-dentalcare.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://thi-dentalcare.com/assets/images/thi-dentalcare-logo.png">
+  <meta property="og:site_name" content="Thi Dentalcare">
+  <meta property="og:locale" content="fr_FR">
+
+  <!-- Favicon -->
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./favicon.svg">
 
-  <!-- 
-    - custom css link
-  -->
+  <!-- CSS -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- 
-    - google font link
-  -->
+  <!-- Preconnect -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
     rel="stylesheet">
 
-  <!-- 
-    - preload hero image
-  -->
+  <!-- Preload hero image -->
   <link rel="preload" as="image" href="./assets/images/img-thihero.jpg">
+
+  <!-- Structured Data - JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Thi Dentalcare",
+    "description": "Cabinet dentaire à Tanger. Dr Tadlaoui Hbibi Idriss, chirurgien-dentiste spécialisé en parodontologie, esthétique du sourire, prothèses et soins pour enfants.",
+    "url": "https://thi-dentalcare.com",
+    "logo": "https://thi-dentalcare.com/assets/images/thi-dentalcare-logo.png",
+    "image": "https://thi-dentalcare.com/assets/images/img-thihero.jpg",
+    "telephone": "+212531202818",
+    "email": "tadlaouiyy@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Residence Salima 169 appart n2 1er étage av Abdeslam, Rue Ben Bouhout",
+      "addressLocality": "Tanger",
+      "postalCode": "90000",
+      "addressCountry": "MA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.7540705,
+      "longitude": -5.7973928
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "10:00",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "10:00",
+        "closes": "14:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/share/18bDdsrDsG/",
+      "https://www.instagram.com/centredentairethi"
+    ],
+    "medicalSpecialty": "Dentistry",
+    "founder": {
+      "@type": "Person",
+      "name": "Dr Tadlaoui Hbibi Idriss",
+      "jobTitle": "Chirurgien-dentiste"
+    },
+    "hasMap": "https://www.google.com/maps?cid=3554770752413268194"
+  }
+  </script>
 </head>
 
 <body id="top">
@@ -62,14 +121,14 @@
         <ul class="social-list">
 
           <li>
-            <a href="https://www.facebook.com/share/18bDdsrDsG/" class="social-link" target="_blank">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <a href="https://www.facebook.com/share/18bDdsrDsG/" class="social-link" target="_blank" aria-label="Suivez-nous sur Facebook">
+              <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="https://www.instagram.com/centredentairethi" class="social-link" target="_blank">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://www.instagram.com/centredentairethi" class="social-link" target="_blank" aria-label="Suivez-nous sur Instagram">
+              <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
             </a>
           </li>
 
@@ -254,7 +313,7 @@
 
                 <figure class="card-banner img-holder" style="--width: 800; --height: 1000;">
                   <img src="./assets/images/pro-1.webp" width="1180" height="800" loading="lazy"
-                    alt="Seas accumsan nulla nec lacus ultricies placerat." class="img-cover">
+                    alt="Prothèse fixée et amovible - solutions de restauration dentaire" class="img-cover">
                 </figure>
 
                 <div class="card-content">
@@ -380,9 +439,9 @@
             <!-- Case 1: Whitening -->
             <div class="ba-slider-card" data-ba-slider>
               <div class="ba-image-container">
-                <img src="./assets/images/trans-1.jpeg" alt="Before" class="ba-image before">
+                <img src="./assets/images/trans-1.jpeg" alt="Avant le traitement dentaire - cas 1" class="ba-image before" loading="lazy">
                 <div class="ba-image after-container">
-                  <img src="./assets/images/trans-11.jpeg" alt="After" class="ba-image after">
+                  <img src="./assets/images/trans-11.jpeg" alt="Après le traitement dentaire - cas 1" class="ba-image after" loading="lazy">
                 </div>
                 <div class="ba-handle">
                   <div class="ba-handle-line"></div>
@@ -399,9 +458,9 @@
             <!-- Case 2: Alignment -->
             <div class="ba-slider-card" data-ba-slider>
               <div class="ba-image-container">
-                <img src="./assets/images/trans-2.jpg" alt="Before" class="ba-image before">
+                <img src="./assets/images/trans-2.jpg" alt="Avant le traitement dentaire - cas 2" class="ba-image before" loading="lazy">
                 <div class="ba-image after-container">
-                  <img src="./assets/images/trans-22.jpg" alt="After" class="ba-image after">
+                  <img src="./assets/images/trans-22.jpg" alt="Après le traitement dentaire - cas 2" class="ba-image after" loading="lazy">
                 </div>
                 <div class="ba-handle">
                   <div class="ba-handle-line"></div>
@@ -418,9 +477,9 @@
             <!-- Case 3: Implants -->
             <div class="ba-slider-card" data-ba-slider>
               <div class="ba-image-container">
-                <img src="./assets/images/trans-33.jpeg" alt="Before" class="ba-image before">
+                <img src="./assets/images/trans-33.jpeg" alt="Avant le traitement dentaire - cas 3" class="ba-image before" loading="lazy">
                 <div class="ba-image after-container">
-                  <img src="./assets/images/trans-3.jpeg" alt="After" class="ba-image after">
+                  <img src="./assets/images/trans-3.jpeg" alt="Après le traitement dentaire - cas 3" class="ba-image after" loading="lazy">
                 </div>
                 <div class="ba-handle">
                   <div class="ba-handle-line"></div>
@@ -460,7 +519,7 @@
 
                 <div class="card-icon">
                   <img src="./assets/images/service-icon-1.png" width="100" height="100" loading="lazy"
-                    alt="service icon" class="w-100">
+                    alt="Icône traitement canalaire" class="w-100">
                 </div>
 
                 <div>
@@ -475,7 +534,7 @@
 
                 <div class="card-icon">
                   <img src="./assets/images/service-icon-2.png" width="100" height="100" loading="lazy"
-                    alt="service icon" class="w-100">
+                    alt="Icône hygiène orale" class="w-100">
                 </div>
 
                 <div>
@@ -492,7 +551,7 @@
 
                 <div class="card-icon">
                   <img src="./assets/images/service-icon-3.png" width="100" height="100" loading="lazy"
-                    alt="service icon" class="w-100">
+                    alt="Icône orthodontie clinique" class="w-100">
                 </div>
 
                 <div>
@@ -505,7 +564,7 @@
             <li class="service-banner">
               <figure>
                 <img src="./assets/images/dentalcare-img.jpeg" width="409" height="467" loading="lazy"
-                  alt="service banner" class="w-100">
+                  alt="Cabinet dentaire Thi Dentalcare - équipement moderne" class="w-100">
               </figure>
             </li>
 
@@ -514,7 +573,7 @@
 
                 <div class="card-icon">
                   <img src="./assets/images/service-icon-4.png" width="100" height="100" loading="lazy"
-                    alt="service icon" class="w-100">
+                    alt="Icône consultation dentaire" class="w-100">
                 </div>
 
                 <div>
@@ -529,7 +588,7 @@
 
                 <div class="card-icon">
                   <img src="./assets/images/service-icon-5.png" width="100" height="100" loading="lazy"
-                    alt="service icon" class="w-100">
+                    alt="Icône facettes dentaires" class="w-100">
                 </div>
 
                 <div>
@@ -544,7 +603,7 @@
 
                 <div class="card-icon">
                   <img src="./assets/images/service-icon-6.png" width="100" height="100" loading="lazy"
-                    alt="service icon" class="w-100">
+                    alt="Icône inspection de cavité" class="w-100">
                 </div>
 
                 <div>
@@ -617,7 +676,7 @@
           </div>
 
           <figure class="horaires-banner">
-            <img src="./assets/images/img-dental.jpg" alt="Cabinet Dentaire" class="w-100">
+            <img src="./assets/images/img-dental.jpg" alt="Cabinet dentaire Thi Dentalcare à Tanger" class="w-100" loading="lazy">
           </figure>
 
           <div class="contact-badge">
@@ -696,18 +755,18 @@
         <div class="cert-marquee-full">
           <div class="cert-slider">
             <div class="cert-track">
-              <div class="cert-item"><img src="./assets/images/cert-1.jpg" alt="Certification 1"></div>
-              <div class="cert-item"><img src="./assets/images/cert-2.jpg" alt="Certification 2"></div>
-              <div class="cert-item"><img src="./assets/images/cert-3.jpg" alt="Certification 3"></div>
-              <div class="cert-item"><img src="./assets/images/cert-4.jpg" alt="Certification 4"></div>
-              <div class="cert-item"><img src="./assets/images/cert-5.jpeg" alt="Certification 5"></div>
-              <div class="cert-item"><img src="./assets/images/cert-6.jpeg" alt="Certification 6"></div>
-              <div class="cert-item"><img src="./assets/images/cert-1.jpg" alt="Certification 1"></div>
-              <div class="cert-item"><img src="./assets/images/cert-2.jpg" alt="Certification 2"></div>
-              <div class="cert-item"><img src="./assets/images/cert-3.jpg" alt="Certification 3"></div>
-              <div class="cert-item"><img src="./assets/images/cert-4.jpg" alt="Certification 4"></div>
-              <div class="cert-item"><img src="./assets/images/cert-5.jpeg" alt="Certification 5"></div>
-              <div class="cert-item"><img src="./assets/images/cert-6.jpeg" alt="Certification 6"></div>
+              <div class="cert-item"><img src="./assets/images/cert-1.jpg" alt="Certification professionnelle Dr Tadlaoui 1" loading="lazy"></div>
+              <div class="cert-item"><img src="./assets/images/cert-2.jpg" alt="Certification professionnelle Dr Tadlaoui 2" loading="lazy"></div>
+              <div class="cert-item"><img src="./assets/images/cert-3.jpg" alt="Certification professionnelle Dr Tadlaoui 3" loading="lazy"></div>
+              <div class="cert-item"><img src="./assets/images/cert-4.jpg" alt="Certification professionnelle Dr Tadlaoui 4" loading="lazy"></div>
+              <div class="cert-item"><img src="./assets/images/cert-5.jpeg" alt="Certification professionnelle Dr Tadlaoui 5" loading="lazy"></div>
+              <div class="cert-item"><img src="./assets/images/cert-6.jpeg" alt="Certification professionnelle Dr Tadlaoui 6" loading="lazy"></div>
+              <div class="cert-item"><img src="./assets/images/cert-1.jpg" alt="Certification professionnelle Dr Tadlaoui 1" loading="lazy"></div>
+              <div class="cert-item"><img src="./assets/images/cert-2.jpg" alt="Certification professionnelle Dr Tadlaoui 2" loading="lazy"></div>
+              <div class="cert-item"><img src="./assets/images/cert-3.jpg" alt="Certification professionnelle Dr Tadlaoui 3" loading="lazy"></div>
+              <div class="cert-item"><img src="./assets/images/cert-4.jpg" alt="Certification professionnelle Dr Tadlaoui 4" loading="lazy"></div>
+              <div class="cert-item"><img src="./assets/images/cert-5.jpeg" alt="Certification professionnelle Dr Tadlaoui 5" loading="lazy"></div>
+              <div class="cert-item"><img src="./assets/images/cert-6.jpeg" alt="Certification professionnelle Dr Tadlaoui 6" loading="lazy"></div>
             </div>
           </div>
         </div>
@@ -736,7 +795,8 @@
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.8671271379076!2d-5.7973928!3d35.7540705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b812f1075b52b%3A0x31550fae3ade18e2!2sDr%20Tadlaoui%20Hbibi%20Idriss-%20Cabinet%20dentaire%20Tanger!5e0!3m2!1sfr!2sma!4v1777661175609!5m2!1sfr!2sma"
                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Localisation du cabinet dentaire Thi Dentalcare sur Google Maps">
               </iframe>
             </div>
 
@@ -1173,14 +1233,14 @@
         <ul class="social-list">
 
           <li>
-            <a href="https://www.facebook.com/share/18bDdsrDsG/" class="social-link" target="_blank">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <a href="https://www.facebook.com/share/18bDdsrDsG/" class="social-link" target="_blank" aria-label="Facebook Thi Dentalcare">
+              <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="https://www.instagram.com/centredentairethi" class="social-link" target="_blank">
-              <ion-icon name="logo-instagram"></ion-icon>
+            <a href="https://www.instagram.com/centredentairethi" class="social-link" target="_blank" aria-label="Instagram Thi Dentalcare">
+              <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
             </a>
           </li>
 

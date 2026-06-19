@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thi-dentalcare.com/sitemap.xml
